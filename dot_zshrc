@@ -119,6 +119,10 @@ alias celar='clear'
 alias ks='ls'
 alias ls='exa --icons'
 alias lg='exa --icons --long --git'
+alias cz='chezmoi'
+alias cze='chezmoi edit'
+alias cza='chezmoi add'
+alias gce='git commit -a -m "update"'
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 export PATH=$PATH:/home/.cargo/bin
@@ -126,6 +130,7 @@ export GOPATH=$HOME/go
 export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$(go env GOPATH)/bin
+export EDITOR="nvim"
 go_fmt() {
 	go fmt ./...
 }
