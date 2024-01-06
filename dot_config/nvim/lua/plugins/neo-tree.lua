@@ -14,7 +14,9 @@ return {
         ntree.setup({
             source_selector = {
                 winbar = true,
-                statusline = false
+                statusline = false,
+                hide_dotfiles = false,
+                hide_gitignored = false
             }
         })
     end

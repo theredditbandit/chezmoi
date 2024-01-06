@@ -123,6 +123,7 @@ alias cz='chezmoi'
 alias cze='chezmoi edit'
 alias cza='chezmoi add'
 alias gce='git commit -a -m "update"'
+alias gbd='go build .'
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 export PATH=$PATH:/home/.cargo/bin
