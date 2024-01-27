@@ -97,7 +97,8 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 alias vim=nvim
 source /home/aryan/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias jj=downloads/zellij
+alias jj=zellij
+alias lz=lazygit
 alias bat=batcat
 alias console='textual console'
 alias claer='clear'
